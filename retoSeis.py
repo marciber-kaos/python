@@ -2,7 +2,7 @@ import mysql.connector
 import json
 
 # Cargar configuración
-with open("config.json") as config_file:
+with open("configuracion.json") as config_file:
     config = json.load(config_file)
 
 # Conectar a la base de datos
